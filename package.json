@@ -1,0 +1,32 @@
+{
+  "name": "@npmcorp/redis",
+  "version": "1.0.0",
+  "description": "a promisified redis client",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/redis.git"
+  },
+  "keywords": [
+    "redis",
+    "promises"
+  ],
+  "author": "Raquel Vélez <raquel@rckbt.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm/redis/issues"
+  },
+  "homepage": "https://github.com/npm/redis#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "redis": "^2.6.2"
+  },
+  "devDependencies": {
+    "redis-mock": "^0.10.0",
+    "require-inject": "^1.4.0",
+    "tap": "^6.3.0"
+  }
+}
